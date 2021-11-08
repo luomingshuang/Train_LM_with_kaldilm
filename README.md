@@ -47,5 +47,5 @@ You can run the following command to get relative LM files:
 ```
 After finishing this process, you can get a dir called `timit_data/lm/4gram-mincount`. And you can unzip the gz file to the arpa file as follows:
 ```
-gunzip -c timit_data/lm/3gram-mincount/lm_unpruned.gz >data/local/lm/lm_4_gram_tgmed.arpa
+gunzip -c timit_data/lm/3gram-mincount/lm_unpruned.gz >timit_data/lm/lm_4_gram_tgmed.arpa
 ```
