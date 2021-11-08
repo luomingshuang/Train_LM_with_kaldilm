@@ -27,15 +27,15 @@ word3  <phone1> <phone2> <phone3> ... <phoneG>
 wordM  <phone1> <phone2> <phone3> ... <phoneH>
 ```
 
-Second, you should decide your LM output dir, such as `timit_data/lm`.
+Second, you should decide your LM output dir, such as `timit_data/lm`. And you can change the `ngram` to generate the LM files with the specific lm type. 
 
 Last, you need just run the following command:
 ```
-./train_lm.sh <xxx/train.text> <xxx/lexicon.txt> <xxx/lm>
+./train_lm.sh <xxx/train.text> <xxx/lexicon.txt> <xxx/lm> <ngram>
 ```
 or
 ```
-bash train_lm.sh <xxx/train.text> <xxx/lexicon.txt> <xxx/lm>
+bash train_lm.sh <xxx/train.text> <xxx/lexicon.txt> <xxx/lm> <ngram>
 ```
 
 ## A TIMIT example
