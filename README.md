@@ -49,3 +49,5 @@ After finishing this process, you can get a dir called `timit_data/lm/4gram-minc
 ```
 gunzip -c timit_data/lm/3gram-mincount/lm_unpruned.gz >timit_data/lm/lm_4_gram_tgmed.arpa
 ```
+
+If you have some questions or problems, please submit a issue or pull request. Thanks!
