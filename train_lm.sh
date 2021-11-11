@@ -16,7 +16,7 @@ fi
 text=$1
 lexicon=$2
 lmdir=$3
-ngram+$4
+ngram=$4
 
 mkdir -p $lmdir 
 
