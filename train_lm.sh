@@ -21,7 +21,7 @@ ngram=$4
 mkdir -p $lmdir 
 
 for f in "$text" "$lexicon"; do
-  [ ! -f $x ] && echo "$0: No such file $f" && exit 1
+  [ ! -f $f ] && echo "$0: No such file $f" && exit 1
 done
 
 # This script assumes you have already got
